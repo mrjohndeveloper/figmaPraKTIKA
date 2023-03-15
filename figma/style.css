@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: #3A5F56;
+    ;
+
+}
+.hero{
+    margin: 10px 236px;
+    color: #3A5F56;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ull{
+    color: #3A5F56;
+    margin-left: 106px;
+    padding-top: 30px;
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.ull li {
+    list-style: none;
+    margin: 0px 30px;
+}
+
+.navb {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 0px;
+    flex-wrap: wrap;
+}
+
+.begin {
+    width: 100vw;
+    height: 100vh;
+    background: #F4F3F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    gap: 136px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.beginleft h1 {
+    font-family: 'Source Serif Pro';
+    font-weight: 400;
+    font-size: 48px;
+    color: #3A5F56;
+}
+
+.beginleft p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 140% */
+    color: #292C32;
+}
+
+.beginleft button {
+    padding: 10px 18px;
+    background: #3A5F56;
+    border-radius: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.begin1 {
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
+
+.begin1 h2 {
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #3A5F56
+}
+
+.begin1 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #292C32;
+}
+
+/* cards */
+.card {
+    width: 380px;
+    padding: 30px;
+    background: #F4F3F0;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.03);
+    border-radius: 16px;
+    text-align: left;
+}
+
+.card p {
+    text-align: left;
+}
+
+.card h2 {
+    text-align: left;
+    margin-bottom: 6px;
+}
+
+.card .icon {
+    margin-bottom: 10px;
+}
+
+.card .btn {
+    margin-top: 17px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+
+.begin5 {
+    height: 890px;
+    background: #F4F3F0;
+    text-align: center;
+    padding: 100px 640px;
+}
+
+.begin5 h1 {
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #DB343B;
+}
+
+.begin5 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #292C32;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.container .kartalar {
+    height: 438px;
+    width: 379px;
+    border-radius: 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+
+.container .kartalar h2 {
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 400;
+
+    font-size: 24px;
+    line-height: 34px;
+    color: #3A5F56;
+}
+
+.container .kartalar h2 {
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #3A5F56;
+}
+
+.container .kartalar p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3A5F56;
+}
+
+.store {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding-top: 30px;
+}
+
+.store img {
+    object-fit: contain;
+}
+
+.store h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #3A5F56;
+}
+
+.beko {
+    height: 459px;
+    background: white;
+}
+
+.beko1 {
+    flex-wrap: wrap;
+    height: 259px;
+    width: 800px;
+    background: #F4F3F0;
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 300px;
+}
+
+.beko3 button {
+    width: 128px;
+    margin-top: 85px;
+    margin-left: 560px;
+    height: 58px;
+    background-color: #3A5F56;
+    border-radius: 6px;
+    color: white;
+}
+
+.beko2 {
+    position: absolute;
+    height: 101px;
+    margin-left: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    color: #292C32;
+    margin-top: 50px;
+}
+@media(max-width:800px){
+    body{
+        display: none;
+    }
+}
